@@ -1,0 +1,33 @@
+{
+  "name": "cliente",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "nome_fantasia": {
+      "type": "string",
+      "required": true
+    },
+    "login": {
+      "type": "string"
+    },
+    "senha": {
+      "type": "string"
+    },
+    "cor_primaria": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

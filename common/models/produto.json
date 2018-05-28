@@ -1,0 +1,26 @@
+{
+  "name": "produto",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "imagem": {
+      "type": "string"
+    },
+    "preco": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
