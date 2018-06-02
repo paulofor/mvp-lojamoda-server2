@@ -1,5 +1,5 @@
 {
-  "name": "pedido",
+  "name": "usuarioApp",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -9,23 +9,24 @@
     "id": {
       "type": "number"
     },
-    "data_inicio": {
-      "type": "date"
+    "login": {
+      "type": "string"
+    },
+    "senha": {
+      "type": "string"
+    },
+    "hash": {
+      "type": "string"
+    },
+    "nome": {
+      "type": "string"
     }
   },
   "validations": [],
   "relations": {
-    "produtos": {
+    "pedidos": {
       "type": "hasMany",
-      "model": "produto",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "itemPedidos": {
-      "type": "hasMany",
-      "model": "itemPedido",
+      "model": "pedido",
       "foreignKey": "",
       "options": {
         "nestRemoting": true

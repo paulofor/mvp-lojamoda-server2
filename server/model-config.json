@@ -49,5 +49,13 @@
   "pedido": {
     "dataSource": "db",
     "public": true
+  },
+  "usuarioApp": {
+    "dataSource": "db",
+    "public": true
+  },
+  "itemPedido": {
+    "dataSource": "db",
+    "public": true
   }
 }

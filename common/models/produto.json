@@ -20,7 +20,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "itemPedidos": {
+      "type": "hasMany",
+      "model": "itemPedido",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
