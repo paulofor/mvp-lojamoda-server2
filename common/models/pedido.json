@@ -11,6 +11,9 @@
     },
     "data_inicio": {
       "type": "date"
+    },
+    "aberto": {
+      "type": "boolean"
     }
   },
   "validations": [],
