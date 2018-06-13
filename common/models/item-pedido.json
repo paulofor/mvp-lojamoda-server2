@@ -11,6 +11,18 @@
     },
     "data_inclusao": {
       "type": "date"
+    },
+    "preco_produto" : {
+      "type" : "number"
+    },
+    "quantidade_produto" : {
+      "type" : "number"
+    },
+    "preco_total" : {
+      "type" : "number"
+    },
+    "nome_produto" : {
+      "type" : "string"
     }
   },
   "validations": [],

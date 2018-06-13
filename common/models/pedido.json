@@ -12,21 +12,19 @@
     "data_inicio": {
       "type": "date"
     },
+    "data_fechamento": {
+      "type": "date"
+    },
     "aberto": {
       "type": "boolean"
+    },
+    "valor_total" : {
+      "type": "number"
     }
   },
   "validations": [],
   "relations": {
-    "produtos": {
-      "type": "hasMany",
-      "model": "produto",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "itemPedidos": {
+     "itemPedidos": {
       "type": "hasMany",
       "model": "itemPedido",
       "foreignKey": "",
