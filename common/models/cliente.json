@@ -19,7 +19,7 @@
     "senha": {
       "type": "string"
     },
-    "cor_primaria": {
+    "cor_primaria": { 
       "type": "string"
     },
     "logo": {

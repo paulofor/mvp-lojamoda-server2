@@ -18,13 +18,13 @@
     "aberto": {
       "type": "boolean"
     },
-    "valor_total" : {
+    "valor_total": {
       "type": "number"
     }
   },
   "validations": [],
   "relations": {
-     "itemPedidos": {
+    "itemPedidos": {
       "type": "hasMany",
       "model": "itemPedido",
       "foreignKey": "",

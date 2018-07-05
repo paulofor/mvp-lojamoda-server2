@@ -18,8 +18,11 @@
     "preco": {
       "type": "number"
     },
-    "ativo" : {
-      "type" : "boolean"
+    "ativo": {
+      "type": "boolean"
+    },
+    "ordem_tela": {
+      "type": "number"
     }
   },
   "validations": [],
