@@ -39,7 +39,7 @@
     "dataSource": null
   },
   "cliente": {
-    "dataSource": "db",
+    "dataSource": "mySqlLoja",
     "public": true
   },
   "produto": {
